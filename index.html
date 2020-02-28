@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="library/normalize.css">
+	<link rel="stylesheet" href="library/layout.css">
+
+	<link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css" />
+	<link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.min.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<script src="owlcarousel/owl.carousel.min.js"></script>
+	<script src="owlcarousel/owl.carousel.js"></script>
+	<script src= "custom.js"></script>
+	<script type="text/javascript" src="library/jquery.mixitup.min.js"></script>
+	<script type="text/javascript">
+		$(function () {
+			var filterList = {
+				init: function () {
+				// MixItUp plugin
+				// http://mixitup.io
+				$('#portfoliolist').mixItUp({
+					selectors: {
+						target: '.portfolio',
+						filter: '.filter'
+					},
+					load: {
+						filter: '.card',
+					}
+				});
+			}
+		};
+		// Run the show!
+		filterList.init();
+	});
+</script>
+<body>
+
+	<header>
+			<!-- <nav class="navbar navbar-expand-lg navbar-light  fixed-top">
+		  <div class="container">
+		    <a class="navbar-brand" href="#">THE CURSEBORN SAGA</a>
+		    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+		          <span class="navbar-toggler-icon"></span>
+		        </button>
+		    <div class="collapse navbar-collapse" id="navbarResponsive">
+		      <ul class="navbar-nav ml-auto">
+		        <li class="nav-item active">
+		          <a class="nav-link" href="#">HOME
+		                <span class="sr-only">(current)</span>
+		              </a>
+		        </li>
+		        <li class="nav-item">
+		          <a class="activer list-a nav-link " href="#">INFO</a>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link" href="#">THE BOOK SERIES</a>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link" href="#">SEEOUR WORLD</a>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link" href="#">BAZAAR</a>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link" href="#">THE CREW</a>
+		        </li>
+
+		      </ul>
+		    </div>
+		  </div>
+		</nav> -->
+			<!-- <div class="row config-header">
+				<div>
+					<p></p>
+				</div>
+				<div class="col-md-6">
+					<div class="the-curseborn">
+            	<p>THE CURSEBORN SAGA</p>
+        		</div>
+				</div>
+				<div class="col-md-6">
+					<div id="menu">
+					   <ul>
+					     <li><a href="#" class="activer list-a">HOME</a></li>
+					     <li><a href="#" class="list-a" id="isnfo">INFO</a></li>
+					     <li><a href="#" class="list-a" id ="character">THE BOOK SERIES</a></li>
+					     <li><a href="#" class="list-a" id ="novel">SEEOUR WORLD</a></li>
+					     <li><a href="#" class="list-a" id="bazra">BAZAAR</a></li>
+					     <li><a href="#" class="list-a" id = "thecrews">THE CREW</a></li>
+					   </ul>
+					</div>
+				</div>
+			</div> -->
+			<section class="navbar-info">
+
+				<nav class="navbar navbar-default navbar-me">
+					<div class="container-fluid ">
+						<!-- Brand and toggle get grouped for better mobile display -->
+						<div class="navbar-header">
+							<div  class="navbar-toggle collapsed menu-collapsed-button" data-toggle="collapse" data-target="#navbar-primary-collapse" aria-expanded="false">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</div>
+							<div class="the-curseborn">
+								<p>THE CURSEBORN SAGA</p>
+							</div>
+						</div>
+						<div id="menu">
+							<ul class="topnav" id="myTopnav">
+								<li><a href="#" class="activer list-a">HOME</a></li>
+								<li><a href="#" class="list-a" id="isnfo">INFO</a></li>
+								<li><a href="#" class="list-a" id ="character">THE BOOK SERIES</a></li>
+								<li><a href="#" class="list-a" id ="novel">SEEOUR WORLD</a></li>
+								<li><a href="#" class="list-a" id="bazra">BAZAAR</a></li>
+								<li><a href="#" class="list-a" id = "thecrews">THE CREW</a></li>
+								<li class="icon">
+									<a href="javascript:void(0);" style="font-size:15px;" onclick="myNav()">☰</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+
+			</section>
+			<div class="night-and-date">
+				<p>NIGHT AND DAY</p>	
+			</div>
+			<div class="content-night">
+				<p>After the moment known as EIEN unfolded, and the birth of Universe came to be, a Goddess awakened upon a floating rock in a world filled with beauty and endless possibility. Upon awakening, she learned her name, and from that moment on, all that lived in the universe knew Life as Lady Vale. Yet, she ...</p>
+			</div>
+			<div class="circle">
+				<a href="#" id="scrollToBottom">
+					<i class="fa fa-arrow-down my-icon" aria-hidden="true"></i>
+				</a>
+			</div>
+		</header>
+		<div class="content">
+			<div class="row">
+				<div class="col-md-6">
+					<div class="content-left">
+						<p class="title-left"><span class="span-what">WHAT IS</span><span class="span-the"> THE CURSEBORN SAGA?</span></p>
+						<p class="content-novella">The Novella Series {} The Curseborn Saga</p>
+						<p class="left-content">
+							The Curseborn Saga is a high fantasy epic, set in the distant fictional realm known as Soria. It tells the tale of Death’s unrelenting pursuit of Lady Life, and the never-ending war known as Ragnarok. The Curseborn Saga is a 22 Chapter Series that will be released one by one in the form of short novellas. Each novella will have it’s own unique cover drawn by the legend and master of Artworkk, Ji Se.
+						</p>	
+						<div class="read-more">
+							<div class="read-more-detail">
+								<a href="#" class="link-read-more">	<i class="fa fa-briefcase"></i><span class="read-mo">READ MORE</span></a>
+							</div>
+						</div>
+
+					</div>
+				</div>	
+				<div class="col-md-6 image-left">
+					<img src="images/eclipes.png" class="eclipe">
+				</div>
+			</div>
+		</div>
+		<div class="clear"></div>
+		<div class="character">
+			<div class="row">
+				<div class="col-md-4"></div>
+				<div class="col-md-4 the-character"><p>THE CHARACTERS</p></div>
+				<div class="col-md-4"></div>
+			</div>
+			<!-- <div class="avatar-img">
+				<ul>
+			    <li>
+					<img src="images/storm.png">
+					<h3 class="name-avatar">STORM</h3>
+					<h5 class="lorem-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore </h5>
+			    </li>
+			    <li>
+					<img src="images/caim.png">
+					<h3 class="name-avatar">CAIM</h3>
+					<h5 class="lorem-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore </h5>
+			    </li>
+			    </li>
+			    <li>
+					<img src="images/ronin.png">
+					<h3 class="name-avatar">RONIN</h3>
+					<h5 class="lorem-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore </h5>
+			    </li>
+			    </li>
+			    <li>
+					<img src="images/lady.png">
+					<h3 class="name-avatar">Lady Val</h3>
+					<h5 class="lorem-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore </h5>
+			    </li>
+			    </li>  
+			   </ul>
+			</div> -->
+
+			<h6></h6>
+			<div class="row">	
+				<div class="col-md-1"></div>
+				<div class="col-md-10">	
+					<div class="slider-first owl-carousel owl-theme style-owl">
+						<div class="item">
+							<img src="images/storm.png">
+							<h3 class="name-avatar storm">STORM</h3>
+							<h5 class="lorem-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore </h5>
+						</div>
+						<div class="item">
+							<img src="images/caim.png">
+							<h3 class="name-avatar">CAIM</h3>
+							<h5 class="lorem-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore </h5>
+						</div>
+						<div class="item">
+							<img src="images/ronin.png">
+							<h3 class="name-avatar">RONIN</h3>
+							<h5 class="lorem-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore </h5>
+						</div>
+						<div class="item">
+							<img src="images/lady.png">
+							<h3 class="name-avatar">LADY</h3>
+							<h5 class="lorem-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore </h5>
+						</div>
+						<div class="item">
+							<img src="images/storm.png">
+							<h3 class="name-avatar">STORM</h3>
+							<h5 class="lorem-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore </h5>
+						</div>
+						<div class="item">
+							<img src="images/caim.png">
+							<h3 class="name-avatar">CAIM</h3>
+							<h5 class="lorem-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore </h5>
+						</div>
+						<div class="item">
+							<img src="images/ronin.png">
+							<h3 class="name-avatar">RONIN</h3>
+							<h5 class="lorem-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore </h5>
+						</div>
+						<div class="item">
+							<img src="images/lady.png">
+							<h3 class="name-avatar">LADY</h3>
+							<h5 class="lorem-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore </h5>
+						</div>
+						<div class="item">
+							<img src="images/storm.png">
+							<h3 class="name-avatar">STORM</h3>
+							<h5 class="lorem-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore </h5>
+						</div>
+						<div class="item">
+							<img src="images/caim.png">
+							<h3 class="name-avatar">CAIM</h3>
+							<h5 class="lorem-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore </h5>
+						</div>
+						<div class="item">
+							<img src="images/ronin.png">
+							<h3 class="name-avatar">RONIN</h3>
+							<h5 class="lorem-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore </h5>
+						</div>
+						<div class="item">
+							<img src="images/lady.png">
+							<h3 class="name-avatar">LADY</h3>
+							<h5 class="lorem-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore </h5>
+						</div>
+
+						<!-- <div class="item"><img src="images/lady.png"></div>
+					    <div class="item"><img src="images/caim.png"></div>
+					    <div class="item"><img src="images/ronin.png"></div>
+					   	<div class="item"><img src="images/storm.png"></div>
+						<div class="item"><img src="images/lady.png"></div>
+					    <div class="item"><img src="images/caim.png"></div>
+					    <div class="item"><img src="images/ronin.png"></div>
+					    <div class="item"><img src="images/storm.png"></div>
+						<div class="item"><img src="images/lady.png"></div>
+					    <div class="item"><img src="images/caim.png"></div>
+					    <div class="item"><img src="images/ronin.png"></div> -->
+					</div>
+				</div>
+				<div class="col-md-1"></div>
+			</div>
+		</div>
+		<div class="row crew">	
+			<h1 class="the-crew">THE CREW</h1>
+		</div>
+		<div class="center-book">
+			<div class="row">
+				<div class="col-md-1"></div>
+				<div class="col-md-10 lord">		
+					<p class="txt-center">
+						We are the Four Lords. Two brothers and two best mates who have learned that our minds will always and forever work at their best when you work with others. We are story tellers in trade, and we long to create something that has never been before. Something that will touch people’s hearts and leave them breathless. We are just like you. We work normal jobs everyday, and try desperately to find our way in this labyrinth we have all come to know as life. But for us, even in the toughest of times, and we all have them, it was always stories that kept us going. It is our passion. It is how we can live life, yet still create. We believe that stories are the heart of everything.	
+					</p>
+				</div>
+				<div class="col-md-1"></div>
+			</div>
+			<div class="row">
+				<div class="col-md-1"></div>
+				<div class="col-md-10">		
+					<p class="txt-center">
+
+						That’s exactly why four years ago, we came together from the corners of this world and began working on our own story. “One of the greatest stories ever told.” This is what we told ourselves we would create. We devote our lives to this. To give something back to the world after the artists of the past have already given so much. We would not be who we are without them. And in turn, are willing to stake our futures on creating something for others. We are artists. We may be irrational, reckless, and stupid at times . . . But we know how to love.
+					</p>
+				</div>
+				<div class="col-md-1"></div>
+			</div>
+			<div class="row center-text">
+				<p class="txt-center">
+					THE FOUR LORDS	
+				</p>
+			</div>
+			<div class="row center-text">
+				<p class="txt-center">
+					Director – Marten D. Shanks {} Writer – Trowa D. Cloud
+				</p>
+			</div>
+			<div class="row center-text">
+				<p class="txt-center">
+					Creator – Simon Gatsu Sandoval {} Creator – Peter Ace Kolias
+				</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-5"></div>
+			<div class="col-md-2">
+				<div class="read-more config-readmor">
+					<div class="read-more-detail">
+						<a href="#" class="link-read-more">	<i class="fa fa-briefcase"></i>READ MORE</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-5"></div>
+		</div>
+		<div class="jumbotron img-novel">
+			<div class="row novellas-center">
+				<h1>THE NOVELLAS</h1>
+				<h6></h6>
+			</div>
+			<div class="row">
+				<div class="owl-second owl-carousel owl-theme style-owl">
+					<div class="item"><p class="rectangle">ARC I: THE SOLDIER GAMES</p></div>
+					<div class="item"><p class="rectangle">ARC II: DIVING DEEP, THE 
+					100 RING FESTIVAL</p></div>
+					<div class="item"><p class="rectangle">ARC III: LAW OF BLOOD</p></div>
+					<div class="item"><p class="rectangle">ARC IV: THE DRAGON KING</p></div>
+					<div class="item"><p class="rectangle">ARC I: THE SOLDIER GAMES</p></div>
+					<div class="item"><p class="rectangle">ARC I: THE SOLDIER GAMES</p></div>
+					<div class="item"><p class="rectangle">ARC I: THE SOLDIER GAMES</p></div>
+					<div class="item"><p class="rectangle">ARC I: THE SOLDIER GAMES</p></div>
+					<div class="item"><p class="rectangle">ARC I: THE SOLDIER GAMES</p></div>
+					<div class="item"><p class="rectangle">ARC I: THE SOLDIER GAMES</p></div>
+				</div>
+
+			</div>
+		</div>	
+		<div class="jumbotron see-ourworl">
+			<div class="row our-world">
+				<p>SEE <span class= "fig-our">OUR WORLD</span></p>
+				<h6></h6>
+			</div>	
+			<div class="row">
+				<div class="col-md-1"></div>
+				<div class="col-md-10 ">		
+					<p class="txt-center rem-text">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+					</p>
+				</div>
+				<div class="col-md-1"></div>
+			</div>
+			<div class="row fitler-bytype">
+				<div class="col-md-1"></div>
+				<div class="col-md-5 ">		
+					<strong class="fiter-by-txt">
+						FILTER BY TYPE
+					</strong>
+				</div>
+				<div class="col-md-5 txt-right">		
+					<strong>
+						<span class=" the-char filter" data-filter=".card">The Characters</span> |  <span class="the-char filter" data-filter=".app">Conceptual Artwork</span> 
+					</strong>
+				</div>
+			</div>
+			<!-- <div class="row fitler-bytype">
+				<div class="col-md-1 col-1 col-sm-1 "></div>
+				<div class="col-md-5 col-5 col-sm-5 "><strong class="fiter-by-txt">
+						FILTER BY TYPE
+					</strong></div>
+				<div class="col-md-5 col-5 col-sm-5 txt-right"><strong>
+						<span class=" the-char filter" data-filter=".card">The Characters</span> |  <span class="the-char filter" data-filter=".app">Conceptual Artwork</span> 
+					</strong></div>
+			</div> -->
+				<!-- <div class="row">
+					<div class="col-md-1"></div>
+					<div class="col-md-10">
+						<img class="list-imagess" src="images/nuilua.png" alt="Card image cap">
+						<img class="list-imagess" src="images/ma.png" alt="Card image cap">
+						<img class="list-imagess" src="images/nuoc.png" alt="Card image cap">
+						<img class="list-imagess" src="images/thap.png" alt="Card image cap">
+						
+					</div>
+					<div class="col-md-1"></div>
+				</div>
+				<div class="row">
+					<div class="col-md-1"></div>
+					<div class="col-md-10">
+						<img class="list-imagess" src="images/1.png" alt="Card image cap">
+						<img class="list-imagess" src="images/2.png" alt="Card image cap">
+						<img class="list-imagess" src="images/3.png" alt="Card image cap">
+						<img class="list-imagess" src="images/4.png" alt="Card image cap">
+						
+					</div>
+					<div class="col-md-1"></div>
+				</div>
+				<div class="row">
+					<div class="col-md-1"></div>
+					<div class="col-md-10">
+						<img class="list-imagess" src="images/5.png" alt="Card image cap">
+						<img class="list-imagess" src="images/6.png" alt="Card image cap">
+						<img class="list-imagess" src="images/7.png" alt="Card image cap">
+						<img class="list-imagess" src="images/8.png" alt="Card image cap">
+						
+					</div>
+					<div class="col-md-1"></div>
+				</div>
+			-->
+				<!-- <div class="row list-img">
+					<div class="col-md-1 list-co-1"></div>
+					<div class="card-deck">
+						<div class="card">
+							<img class="card-img-top" src="images/1.png" alt="Card image cap">
+						</div>
+						<div class="card">
+							<img class="card-img-top" src="images/2.png" alt="Card image cap">
+						</div>
+						<div class="card">
+							<img class="card-img-top" src="images/3.png" alt="Card image cap">
+						</div>
+						<div class="card">
+							<img class="card-img-top" src="images/4.png" alt="Card image cap">
+						</div>
+			  		
+					</div>
+					<div class="col-md-1"></div>
+				</div>
+				<div class="row list-img">
+					<div class="col-md-1"></div>
+					<div class="card-deck">
+						<div class="card">
+							<img class="card-img-top" src="images/5.png" alt="Card image cap">
+						</div>
+						<div class="card">
+							<img class="card-img-top" src="images/6.png" alt="Card image cap">
+						</div>
+						<div class="card">
+							<img class="card-img-top" src="images/7.png" alt="Card image cap">
+						</div>
+						<div class="card">
+							<img class="card-img-top" src="images/8.png" alt="Card image cap">
+						</div>
+			  
+					</div>
+					<div class="col-md-1"></div>
+				</div>
+			
+			-->              <div class="container">
+
+				<div id="portfoliolist">
+					<div class="portfolio app" data-cat="app">
+						<div class="portfolio-wrapper">
+							<img src="images/1.png" alt="" />
+						</div>
+					</div>
+					<div class="portfolio app" data-cat="app">
+						<div class="portfolio-wrapper">
+							<img src="images/1.png" alt="" />
+						</div>
+					</div>
+					<div class="portfolio card" data-cat="card">
+						<div class="portfolio-wrapper">
+							<img src="images/nuilua.png" alt="" />
+						</div>
+					</div>
+					<div class="portfolio card" data-cat="card">
+						<div class="portfolio-wrapper">
+							<img src="images/ma.png" alt="" />
+						</div>
+					</div>
+					<div class="portfolio card" data-cat="card">
+						<div class="portfolio-wrapper">
+							<img src="images/thap.png" alt="" />
+						</div>
+					</div>
+					<div class="portfolio card" data-cat="card">
+						<div class="portfolio-wrapper">
+							<img src="images/nuoc.png" alt="" />
+						</div>
+					</div>
+					<div class="portfolio card" data-cat="card">
+						<div class="portfolio-wrapper">
+							<img src="images/1.png" alt="" />
+						</div>
+					</div>
+					<div class="portfolio card" data-cat="card">
+						<div class="portfolio-wrapper">
+							<img src="images/2.png" alt="" />
+						</div>
+					</div>	
+					<div class="portfolio card" data-cat="card">
+						<div class="portfolio-wrapper">
+							<img src="images/3.png" alt="" />
+						</div>
+					</div>
+					<div class="portfolio card" data-cat="card">
+						<div class="portfolio-wrapper">
+							<img src="images/4.png" alt="" />
+						</div>
+					</div>
+					<div class="portfolio card" data-cat="card">
+						<div class="portfolio-wrapper">
+							<img src="images/5.png" alt="" />
+						</div>
+					</div>
+					<div class="portfolio card" data-cat="card">
+						<div class="portfolio-wrapper">
+							<img src="images/6.png" alt="" />
+						</div>
+					</div>
+					<div class="portfolio card" data-cat="card">
+						<div class="portfolio-wrapper">
+							<img src="images/7.png" alt="" />
+						</div>
+					</div>
+					<div class="portfolio card" data-cat="card">
+						<div class="portfolio-wrapper">
+							<img src="images/8.png" alt="" />
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="jumbotron img-baraza">
+			<div class="row novellas-center">
+				<h1>BAZAAR</h1>
+				<h6></h6>
+			</div>
+			<div class="row">
+				<div class="col-md-2"></div>
+				<div class="col-md-8 text-center  bazzarr-txt">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+					</p>
+				</div>
+				<div class="col-md-2"></div>
+			</div>
+			<div class="row">
+				<div class="col-md-2"></div>
+				<div class="col-md-8 text-center  bazzarr-txt">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+				</div>
+				<div class="col-md-2"></div>
+			</div>
+		</div>
+		<div class="contact">
+			<div class="row our-world">
+				<h1 class="col-novellas"><span class="see">FEEL FREE TO</span> CONTACT US</h1>
+				<h6></h6>
+			</div>	
+			<div class="row reponsive-contact">
+				<div class="col-sm-2"></div>
+
+				<div class="col-sm-8 contact-form">
+					<form id="contact" method="post" class="form" role="form">
+						<div class="row">
+							<div class="col-xs-6 col-md-6 form-group">
+								<label for="form_name">Name <span class="style-red">*</span></label>
+								<input class="form-control" id="name" name="name" placeholder="" type="text"  />
+							</div>
+							<div class="col-xs-6 col-md-6 form-group">
+								<label for="form_name">Email Adress <span class="style-red">*</span></label>
+								<input class="form-control" id="email" name="email" placeholder="" type="email" required />
+							</div>
+						</div>
+						<textarea class="form-control" id="message" name="message" placeholder="" rows="5"></textarea>
+						<br />
+						<div class="row">
+							<div class="col-xs-12 col-md-12 form-group">
+								<button class="btn btn-primary pull-right send" type="submit">SEND</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+			<footer>
+				<div class="back-footer">
+					<div class="container">
+						<div class="row py-4 d-flex align-items-center">
+							<div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+								<h6 class="mb-0">ALL RIGHTS RESERVED. COPYRIGHT © 2015 <span class="curseborn-saga">THE CURSEBORN SAGA</span></h6>
+							</div>
+							<div class="col-md-6 col-lg-7 text-center text-md-right">
+								<a class="fb-ic icon-padding">
+									<img src="images/facebook.png">
+								</a>
+								<a class="tw-ic icon-padding">
+									<img src="images/twitter.png">
+								</a>
+								<a class="gplus-ic icon-padding">
+									<img src="images/google.png">
+								</a>
+								<a class="li-ic icon-padding">
+									<img src="images/linkedin.png">
+								</a>
+								<a class="ins-ic icon-padding">
+									<img src="images/dribbble.png">
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>	
+			</footer>    
+			<script type="text/javascript">
+				function myNav() {
+					var x = document.getElementById("myTopnav");
+					if (x.className === "topnav") {
+						x.className += " responsive";
+					} else {
+						x.className = "topnav";
+					}
+				}
+
+			</script>
+		</body>
+		</html>
+

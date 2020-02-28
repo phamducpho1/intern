@@ -1,0 +1,1405 @@
+*{
+	margin: 0;
+	padding: 0;	
+}
+header{
+	height: 790px;
+	background-image: url("images/header.png");
+	background-repeat:no-repeat;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	background-position:center;
+}
+ul.topnav li.icon {
+	display: none;
+}
+
+/*.navbar-light .navbar-brand{
+color: #00a8ff !important;
+font-size: 36.4px !important;
+}
+.nav-link{
+color: white !important;
+}
+.navbar-toggler{
+background-color: white !important;
+}*/
+
+#the-curseborn p{
+	float: left;
+	margin-top: 25px;
+	font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 36.4px;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1;
+	letter-spacing: normal;
+	text-align: left;
+	color: #00a8ff;
+	margin-left: 201px;
+
+}
+ul li a:hover{
+	text-decoration: none;
+	color: white;
+}
+.config-header{
+	padding-top: 61px;
+}
+#menu{
+	float: right;
+	margin-right: 34px;
+}
+ul{
+	list-style-type: none;
+}
+li{
+	float: left;
+	margin-right: 17px;
+	font-size: 16px;
+
+}
+.list-a{
+	text-decoration: none;
+	font-size: 16px;
+	color: white;
+	padding-bottom: 3px;
+}
+
+#menu ul{
+	list-style-type:none;
+}
+
+#menu ul li{
+	font-family: "Open Sans"
+	font-size: 16px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.5;
+	letter-spacing: normal;
+	text-align: left;
+	color: #ffffff;
+}
+#menu ul li :hover{
+	border-bottom: 3px solid #00a8ff;
+}
+
+.clear{
+	clear: both;
+}
+.text-header{
+	margin-top: 199px;
+	font-family: "Open Sans";
+	font-size: 44px;
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 0.55;
+	letter-spacing: -2.2px;
+	text-align: center;
+	color: #00a5ff;
+}
+
+.night-and-date{
+	margin-top: 178px;
+	margin-left: 512px;
+	width: 297px;
+	height: 33px;
+	font-family: "Open Sans";
+	font-size: 44px;
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 0.55;
+	letter-spacing: -2.2px;
+	text-align: center;
+	color: #00a5ff;
+}
+.content-night{
+	width: 1052px;
+	height: 69px;
+	font-family: "Open Sans";
+	margin-left: 186px;
+	margin-top: 20px;
+	font-size: 20px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.2;
+	letter-spacing: -1px;
+	text-align: center;
+	color: #ffffff;
+}
+.content-heder{
+	padding-top: 20px;
+	color: white;
+	width: 1118px;
+	height: 69px;
+	font-family: "Open Sans";
+	font-size: 20px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.2;
+	letter-spacing: -1px;
+	text-align: center;
+	color: #ffffff;
+	margin-left: 165px;
+}
+
+.activer{
+	border-bottom: 3px solid #00a8ff;
+}
+.circle{
+	margin-left: 649px;
+	margin-top: 181px;
+	height: 50px;
+	width: 50px;
+	border: 2px solid #D9D5D5;
+	border-radius: 50% ;
+	display: inline-block;
+	text-align: center;
+}
+.my-icon {
+	padding-top: 15px;
+	color: #D9D5D5;
+}
+
+.content{
+	margin-left: 187px;
+	margin-top: 79px;
+	font-family: "Open Sans";
+	font-size: 34px;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.09;
+	letter-spacing: -0.68px;
+	color: #222222;
+
+}
+.content-left{
+	float: left;
+	font-size: 34px;
+
+}
+.content-left > .title-left:after{ 
+	content: "";
+	display: block;
+	background-color: #0096ff;
+	margin-top: 20px;
+	width: 99px;
+	height: 5px;
+	text-align: center;
+}
+
+}
+.span-what{
+	font-family: "Open Sans";
+
+}
+.span-the{
+	font-weight: 700;
+	font-family: "Open Sans"
+}
+.left-content{
+	width: 428px;
+	font-family: "Open Sans";
+	font-size: 18px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.39;
+	letter-spacing: -0.72px;
+	text-align: left;
+	color: #6c6c6c;
+}
+.content-novella{
+	font-family: "Open Sans";
+	font-size: 31px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.39;
+	letter-spacing: -0.72px;
+	text-align: left;
+	color: #6c6c6c;
+	padding-top: 10px;
+}
+.content-right{
+	float: right;
+	margin-right: 214px;
+}
+.image-left{
+	margin-bottom: 45px;
+
+}
+.eclipe{
+	width: 451px;
+	height: 451px;	
+}
+.read-more{
+	font-family: "Open Sans";	
+	margin-top: 37px;
+	width: 192px;
+	height: 45px;
+	font-size: 12px;
+	border: solid 1px rgba(0, 0, 0, 0.5);
+	text-align: center;
+	color: #616161;;
+	margin-bottom: 110px;
+	border-top-right-radius: calc(4px);
+	border-top-left-radius: calc(4px) ;
+	border-bottom-right-radius: calc(4px);
+	border-bottom-left-radius: calc(4px) ;
+
+
+}
+.fa-briefcase{
+	padding-left: 43px !important;
+}
+.read-mo{
+	padding-left: 6px;
+}
+.read-more-detail{
+	padding-top: 14px;
+}
+.link-read-more{
+	text-decoration: none;
+	color: #616161;
+	padding-left: 3px;
+}
+.character{
+	height: 726px;
+	background-image: url("images/contentimg.png");
+	background-repeat: no-repeat, repeat;
+
+}
+.character .the-character{
+	padding-top: 100px;
+	width: 351px;
+	height: 31px;
+	font-family: "Open Sans";
+	font-size: 44px;
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 0.55;
+	letter-spacing: normal;
+	text-align: center;
+	color: #ffffff;
+}
+.character p:after{
+	content: "";
+	display: block;
+	background-color: #00a8ff;
+	width: 99px;
+	height: 5px;
+	text-align: center;
+	margin-left: 156px;
+	margin-top: 30px;
+}
+.character h6:after{
+	content: "";
+	display: block;
+	background-color: #00a8ff;
+	width: 67px;
+	height: 5px;
+	text-align: center;
+	margin-left: 628px;
+	margin-top: 68px;
+}
+.center-book{
+	font-family: "Open Sans";
+	font-size: 16px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: italic;
+	line-height: 1.5;
+	letter-spacing: normal;
+	color: #6c6c6c;
+}
+.name-avatar{
+	font-family: "Open Sans";
+	font-size: 20px;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.2;
+	letter-spacing: normal;
+	color: #ffffff;
+	padding-left: 87px;
+}
+.storm{
+	padding-left: 79px;
+}
+.avatar-img ul{
+	margin-left: 187px;
+	padding-top: 40px;	
+}
+
+.lorem-content{
+	width: 249px;
+	height: 62px;
+	font-family: "Open Sans";
+	font-size: 14px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.71;
+	letter-spacing: normal;
+	text-align: center;
+	color: #ffffff;
+}
+
+.the-curseborn{
+	font-family: "Open Sans";
+	/*font-size: 36.4px;*/
+	font-size: 22.4px;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1;
+	letter-spacing: normal;
+	text-align: left;
+	color: #00a8ff;
+	margin-left: 201px;
+}
+.row{
+	margin-right: 0px !important;
+}
+.slider-first .item{
+	width: 220px;
+	height: 220px
+}
+.owl-second .owl-stage-outer{
+	padding-top: 50px;	
+}
+
+.style-owl{
+	padding-left: 62px;
+	margin-top:30px;
+}
+.active{
+	font-weight: 600 !important;
+	color: #222222 !important;
+}
+.the-crew {
+	margin-left: 557px;
+	width: 265px;
+	height: 31px;
+	font-family: "Open Sans";
+	font-size: 44px;
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 0.55;
+	letter-spacing: normal;
+	text-align: center;
+	color: #222222;
+}
+.crew{
+	display: block !important;
+	margin-top: 100px;
+}
+.txt-center{
+	text-align: center;
+}
+.crew h1:after {
+	content: "";
+	display: block;
+	background-color: #00a8ff;
+	width: 99px;
+	height: 5px;
+	text-align: center;
+	margin-left: 87px;
+	margin-top: 30px;
+}
+.lord p:before {
+	content: "";
+	display: block;
+	background-color: #00a8ff;
+	width: 67px;
+	height: 5px;
+	text-align: center;
+	margin-left: 531px;
+	margin-top: 35px;
+	margin-bottom: 20px;
+}
+.center-text{
+	text-align: center;
+	display: block !important;
+}
+.fa-briefcase{
+	padding: 4px !important;
+}
+
+.jumbotron .novellas-center{
+	text-align: center;
+	display: block !important;
+}
+.jumbotron .novellas-center{
+	font-family: "Open Sans";
+	font-size: 44px;
+	font-weight: 300;
+	color: white;
+}
+.jumbotron .novellas-center h1:after{
+	content: "";
+    display: block;
+    background-color: #00a8ff;
+    width: 100px;
+    height: 5px;
+    text-align: center;
+    margin-left: 599px;
+    margin-top: 7px;
+}
+.jumbotron .novellas-center h6:before{
+	content: "";
+    display: block;
+    background-color: #00a8ff;
+    width: 65px;
+    height: 5px;
+    text-align: center;
+    margin-left: 616px;
+    margin-top: 1px;
+    margin-bottom: 20px;
+}
+.rectangle{
+	width: 299px;
+	height: 105px;
+	border: solid 1px #3e3e3e;
+	background-color: #000000;
+}
+.img-novel{
+	background-image: url("images/novellas.png");
+	background-repeat: no-repeat, repeat;
+}
+.style-owl .item .rectangle{
+	font-family: "Open Sans";
+	font-size: 20.4px;
+	text-align: center;
+	color: #cbcbcb;
+	display: flex;
+	align-items: center;
+	justify-content: center
+}
+/*.owl-second .owl-stage-outer .owl-stage .cloned{
+margin-right: 35px !important;
+}*/
+.jumbotron{
+	background-color: white !important;
+	border-radius: 0px !important;
+} 
+.col-novellas{
+	color: #222222;
+}
+.see{
+	width: 347px;
+	height: 31px;
+	font-family:"Open Sans";
+	font-size: 44px;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 0.55;
+	letter-spacing: normal;
+	text-align: left;
+	color: #222222;
+}
+.jumbotron .our-world p:after{
+	content: "";
+	display: block;
+	background-color: #00a8ff;
+	width: 99px;
+	height: 5px;
+	text-align: center;
+	margin-left: 612px;
+	margin-top: 30px;
+}
+.jumbotron .our-world h6:before{
+	content: "";
+	display: block;
+	background-color: #00a8ff;
+	width: 67px;
+	height: 5px;
+	text-align: center;
+	margin-left: 627px;
+	margin-top: 1px;
+	margin-bottom: 20px;
+}
+.jumbotron .our-world{
+	text-align: center;
+	display: block !important;
+	font-family: "Open Sans";
+	font-size: 44px;
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 0.55;
+	letter-spacing: normal;
+	text-align: center;
+	color: #222222;
+}
+.list-co-1{
+	margin-right: 13px ;
+}
+.fig-our{
+	width: 347px;
+	height: 31px;
+	font-family: "Open Sans";
+	font-size: 44px;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 0.55;
+	letter-spacing: normal;
+	text-align: left;
+	color: #222222;
+}
+
+.fitler-bytype{
+	margin-top: 111px; 
+	margin-bottom: 45px;
+}
+.txt-right{
+	font-family: "Open Sans";
+	font-size: 18px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.33;
+	letter-spacing: normal;
+	text-align: right;
+	/*color: #6c6c6c;*/
+
+}
+.txt-right span.the-char{
+	color: #6c6c6c;
+	font-family: "Open Sans";
+	font-weight: normal;
+}
+.card-img-top{
+	border-top-right-radius: calc(0px) !important;
+	border-top-left-radius: calc(0px) !important;
+}
+.list-imagess{
+	width: 239px;
+	height: 213px;
+	margin-right: 21px;
+	margin-top: 24px;
+}
+.send{
+	border-radius: 0px !important;	
+}
+.card{
+	border: 0px !important;
+}
+.list-img{
+	margin-top: 20px;
+}
+.rem-text{
+	width: 1133px;
+	height: 65px;
+	font-family: "Open Sans";
+	font-size: 16px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: italic;
+	line-height: 1.5;
+	letter-spacing: normal;
+	text-align: center;
+	color: #6c6c6c;
+}
+.img-baraza{
+	color: #f0f0f0;
+	background-image: url("images/bazra.png");
+	background-repeat: no-repeat, repeat;
+}
+.size-bazra{
+	font-size: 14px;
+}
+
+.contact .our-world h1:after{
+	content: "";
+	display: block;
+	background-color: #00a8ff;
+	width: 92px;
+	height: 5px;
+	text-align: center;
+	margin-left: 631px;
+	margin-top: 7px;
+}
+.contact .our-world h6:before{
+	content: "";
+	display: block;
+	background-color: #00a8ff;
+	width: 67px;
+	height: 5px;
+	text-align: center;
+	margin-left: 643px;
+	margin-top: 1px;
+	margin-bottom: 20px;
+}
+.config-readmor{
+	margin-bottom: 70px;
+}
+.contact .our-world{
+	text-align: center;
+	display: block !important;
+}
+.style-red{
+	color: red;
+}
+.pull-right{
+	width: 165px;
+	color: 
+}
+.back-footer{
+	background-color: #222222;
+}
+.mb-0{
+	font-size: 12px;
+	font-family: "Open Sans";	
+	color: #b2b2b2;
+}
+.curseborn-saga{
+	font-weight: bold;
+}
+.icon-padding{
+	padding: 3px;
+}
+.slider-first .owl-stage-outer .owl-stage{
+	height: 328px;
+}
+.slider-first .owl-dots{
+	margin-left: -46px;
+	margin-top: 49px;
+}
+.item img{
+	padding-bottom: 11px;
+}
+.owl-theme .owl-dots .owl-dot.active span{
+	background-color: blue !important;
+}
+.owl-theme .owl-dots .owl-dot span{
+	border-radius: 0px !important;
+}
+
+.owl-second  .owl-dots{
+	margin-right: 73px;
+}
+.text-md-right img{
+	width: 30px;
+	height: 30px;
+	margin-top: 4px;
+}
+footer{
+	margin-top: 40px;
+}
+
+.fiter-by-txt{
+	width: 129px;
+	height: 13px;
+	font-family: "Open Sans";
+	font-size: 18px;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.33;
+	letter-spacing: normal;
+	text-align: center;
+	color: #222222;
+}
+/*	.the-curseborn{
+font-size: 20px;
+margin-left: 155px;
+}*/
+.list-a{
+	text-decoration: none;
+	font-size: 16px;
+	color: white;
+	padding-bottom: 3px;
+}
+/*.content-left{
+width: 385px;
+
+}*/
+.title-left{
+	font-size: 34px;
+}
+
+.menu-block{
+	display: none;
+}
+.navbar-info {
+	width: 100%;
+
+
+}
+.fixed-me{
+	transition: all 1s ;
+}
+
+.fixed-me{
+	background-color:#fff !important;
+	padding: 0px  !important;
+	margin-bottom: 5px;
+	position: fixed;
+	top:0;
+	z-index:888;
+	width: 100%;
+
+}
+
+.navbar-me {
+
+	transition: all 1s ;
+}
+.header-right-menu{
+	padding: 5px 15px !important;   
+
+}
+.site-logo{
+	padding: 15px 20px !important; 
+	margin: 15px 10px !important;
+}
+.navbar-me{
+	padding: 10px 0px;
+	background-color: transparent;
+	top: 0px;
+	border: 0px;
+	border-radius: 0px;
+}
+.navbar-collapse{
+	text-align: center;
+	border-top-width: 0px;
+	padding-top: 10px;
+	margin-top: 5px;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+	background-color: transparent;
+}
+.menu-collapsed-button{
+	margin: 20px 15px 10px 15px !important;
+}
+.col-txta{
+	color: #222222;
+}
+.slider-first .owl-nav.disabled+.owl-dots {
+    margin-top: 60px;
+}
+.owl-second .owl-nav.disabled+.owl-dots {
+    margin-top: 60px;
+}
+@media only screen and (max-width: 1024px) {
+	/*header {background: pink;}*/
+	header{
+		background-size:contain;
+		background-position:center;
+		height: 540px;
+	}
+	.config-header{
+		padding-top: 38px;
+	}
+	.the-curseborn{
+		margin-left: 100px;
+	}
+	#menu ul li a{
+		font-size: 11.6px;
+	}
+	.night-and-date{
+		margin-top: 136px;
+		margin-left: 394px;
+	}
+	.content-night{
+		width: 674px;
+		font-size: 14px;
+	}
+	.circle{
+		margin-left: 486px;
+		margin-top: 99px;
+		height: 30px;
+		width: 30px;
+		border: 2px solid #D9D5D5;
+		border-radius: 50%;
+		display: inline-block;
+		text-align: center;
+	}
+	.my-icon{
+		padding-top: 0px;
+	}
+	.eclipe {
+		width: 300px;
+		height: 300px;
+		margin-left: 48px;	
+	}
+	.title-left {
+		font-size: 20px;
+	}
+	.content-novella{
+		font-size: 14px;
+	}
+	.left-content {
+		font-size: 14px;
+	}
+	.read-more{
+		width: 122px;
+	}
+	.character .the-character{
+		font-size: 30px;
+	}
+	.character p:after {
+		width: 86px;
+		height: 3px;
+		margin-left: 113px;
+	}
+	.content-left > .title-left:after{
+		width: 86px;
+		height: 3px;
+	}
+	.character h6:after{
+		width: 60px;
+		height: 3px;
+		margin-left: 472px;
+		margin-top: 57px;
+	}
+	.owl-carousel .owl-item img {
+		width: 75%;	
+	}
+	.name-avatar {
+		font-size: 14px;
+		padding-left: 72px;
+	}
+	.lorem-content {
+		width: 170px
+	}
+	.storm{
+		margin-left: -12px
+	}
+	.the-crew{
+		margin-left: 375px;
+	}
+	.crew h1:after {
+		height: 3px;
+	}
+	.lord p:before{
+		width: 60px;
+		height: 3px;
+		margin-left: 379px;
+	}
+	.img-novel .novellas-center h1{
+		font-size: 30px;
+	}
+	.jumbotron .novellas-center h6:before{
+		width: 60px;
+		height: 3px;
+		margin-left: 461px;
+		text-align: center;
+	}
+	.jumbotron .novellas-center h1:after{
+		margin-left: 449px;
+		width: 86px;
+		height: 3px;
+	}
+	.rectangle {
+		width: 189px;
+		height: 105px;
+	}
+	.style-owl .item .rectangle {
+		font-size: 14.4px;
+	}
+	.owl-second .owl-dots {
+		margin-right: 33px;
+	}
+	.jumbotron .our-world {
+		font-size: 30px;
+	}
+	.fig-our{
+		font-size:30px;
+	}
+	.jumbotron .our-world p:after{
+		width: 86px;
+		height: 3px;
+		margin-left: 459px;
+	}
+	.jumbotron .our-world h6:before{
+		width: 60px;
+		height: 3px;
+		margin-left: 472px;
+		margin-top: -8px;
+	}
+	.rem-text{
+		width: 791px;
+	}
+	.img-baraza .novellas-center h1 {
+		font-size: 30px;
+
+	}
+	.img-baraza .novellas-center h1:after {
+
+	}
+	.img-baraza .novellas-center h6:before{
+		width: 44px;
+	    height: 3px;
+	    text-align: center;
+	    margin-left: 465px;
+	}
+	.img-baraza .novellas-center h1:after{
+		margin-left: 453px;
+    	width: 70px;
+		height: 3px;
+	}
+	.col-novellas{
+		font-size: 30px;
+	}
+	.see{
+		font-size: 30px;
+	}
+	.contact .our-world h1:after {
+		width: 86px;
+		height: 3px;
+		text-align: center;
+		margin-left: 468px;
+	}
+	.contact .our-world h6:before {
+		width: 60px;
+		height: 3px;
+		text-align: center;
+		margin-left: 480px;
+		margin-top: 1px;
+	}
+	.mb-0{
+		font-size: 11px;
+	}
+}
+@media only screen and (max-width: 768px) {
+	.circle {
+		margin-left: 373px;
+		margin-top: 61px;
+		height: 25px;
+		width: 25px;
+		border: 2px solid #D9D5D5;
+		border-radius: 50%;
+		display: inline-block;
+		text-align: center;
+	}
+	.my-icon {
+		font-size: 12px;}
+		.container-fluid{
+			padding-right: 0px;
+			padding-left: 0px;
+		}
+		header{background-size:contain;
+			height: 405px;
+			background-position:center;}
+			.config-header{
+				padding-top: 23px;
+			}
+			.the-curseborn{
+				margin-left: 100px;
+				font-size: 14px;
+			}
+			#menu ul li a{
+				font-size: 11.6px;
+			}
+			.title-left{
+				font-size: 15px;
+			}
+			.content-novella{
+				font-size: 12px;
+			}
+			.left-content {
+				font-size: 12px;
+				width: 222px;
+			}
+			.eclipe{
+				margin-left: 0px;
+				width: 250px;
+				height: 250px;
+			}
+			.rem-text {
+				width: 601px;
+			}
+			.content-night {
+				width: 529px;
+				margin-left: 111px;
+				font-size: 14px;
+			}
+			.night-and-date {
+				margin-top: 68px;
+				margin-left: 233px;
+				font-size: 25px;
+			}
+			.character .the-character{
+				font-size: 25px;
+			}
+			.character p:after {
+				width: 60px;
+				height: 3px;
+				margin-left: 84px;
+			}
+			.character h6:after {
+				width: 32px;
+				height: 3px;
+				margin-left: 358px;
+				margin-top: 57px;
+			}
+			.the-crew {
+				margin-left: 259px;
+				font-size: 30px;
+			}
+			.lord p:before {
+				width: 44px;
+				height: 3px;
+				margin-left: 287px;
+				margin-top: 21px;
+			}
+			.crew h1:after {
+				content: "";
+				display: block;
+				background-color: #00a8ff;
+				width: 86px;
+				height: 3px;
+				text-align: center;
+				margin-left: 87px;
+				margin-top: 30px;
+			}
+			.jumbotron .novellas-center h1:after {
+			    margin-left: 332px;
+			    width: 77px;
+			    height: 3px;
+			}
+			.jumbotron .novellas-center h6:before {
+				width: 44px;
+				height: 3px;
+				text-align: center;
+				margin-left: 345px;
+			}
+			.jumbotron .our-world p:after {
+				width: 86px;
+				height: 3px;
+				margin-left: 330px;
+			}
+			.jumbotron .our-world h6:before {
+				width: 44px;
+				height: 3px;
+				margin-left: 350px;
+				margin-top: -8px;
+			}
+			.fiter-by-txt {
+				font-size: 15px;
+			}
+			.txt-right{
+				font-size: 15px;
+				margin-left: 49px;	
+			}
+			.img-baraza .novellas-center h1:after {
+				margin-left: 323px;
+				width: 72px;
+				height: 3px;
+			}
+			.jumbotron .novellas-center h6:before {
+				margin-left: 348px;
+			}
+			.contact .our-world h1:after{
+				margin-left: 345px;
+			}
+			.contact .our-world h6:before {
+				width: 44px;
+				height: 3px;
+				text-align: center;
+				margin-left: 366px;
+				margin-top: 1px;
+			}
+		}
+		@media only screen and (max-width: 414px) {
+			.night-and-date {
+				margin-top: 4px;
+				margin-left: 74px;
+				font-size: 21px;
+			}
+			.content-night {
+				width: 343px;
+				margin-left: 46px;
+				font-size: 8px;
+				margin-top: 0px;
+			}
+			.circle {
+				margin-left: 195px;
+				margin-top: 0px;
+				height: 12px;
+				width: 12px;
+				border: 1px solid #D9D5D5;
+				border-radius: 50%;
+				display: inline-block;
+				text-align: center;
+			}
+			.my-icon {
+				font-size: 7px;
+				position: relative;
+				top: -10px;
+			}
+
+/*nav ul li a.list-a{
+background-color: #b3b3b3;
+}*/
+ul.topnav li:not(:last-child) {display: none;}
+ul.topnav li.icon {
+	position: absolute;
+	float: right;
+	top: -15px;
+	right: 13px;
+	display: inline-block;
+}
+ul.topnav li{
+	margin: 0;
+}
+ul.topnav li{
+	padding: 0;
+}
+ul.topnav.responsive {
+
+	right: 0;
+	width: 100%;
+}
+nav li{
+	line-height: 20px;
+}
+ul.topnav.responsive li {
+	float: none;
+	display: block;
+}
+.menu{
+	padding-right: 0;
+}
+ul.topnav.responsive li a {
+	border: 0px;
+	display: block;
+	text-align: left;
+	padding:10px 25px;
+}
+#menu ul li :hover{
+	border: 0px;
+}
+ul.topnav.responsive li:last-child {
+	top: -5px;
+	right: -12px;
+}
+ul{
+	display: inline-block;
+}
+header{
+	background-size:contain;
+	height: 218px;
+	background-position:center;
+}
+.the-curseborn{
+	margin-top: -16px;
+	margin-left: 33px;
+	font-size: 9px;
+}
+#menu{
+	margin-right: 0px;
+	position: absolute;
+	margin-right: 0px;
+	top: 20px;
+	right: -3px;
+}
+#menu ul li a {
+	font-size: 9px;
+}
+.navbar-info {
+	width: 99%;
+}
+.content {
+	margin-left: 67px;
+	margin-top: 53px;}
+
+	.content-novella {
+		font-size: 14px;
+		margin-left: 25px;
+	}
+
+	.left-content {
+		font-size: 14px;
+		width: 302px;
+		text-align: center;
+	}
+	.title-left {
+		font-size: 18px;
+	}
+	.content-left > .title-left:after {
+		width: 57px;
+		height: 3px;
+	}
+	.read-more {
+		margin-bottom: 58px;
+		margin-left: 87px;
+	}
+	.eclipe {
+		margin-left: 24px;
+		width: 250px;
+		height: 250px;
+	}
+	.character .the-character {
+		font-size: 21px;
+		margin-left: 54px;
+	}
+	.character p:after {
+		width: 60px;
+		height: 3px;
+		margin-left: 124px;
+	}
+	.character h6:after {
+		width: 32px;
+		height: 3px;
+		margin-left: 192px;
+		margin-top: 57px;
+	}
+	.owl-carousel .owl-item img {
+		width: 64%;
+	}
+	.name-avatar {
+		font-size: 14px;
+		padding-left: 59px;
+	}
+	.storm {
+		margin-left: -8px;
+	}
+	.lorem-content {
+   		 width: 144px;
+        font-size: 13px;
+	}
+	.slider-first .owl-dots {
+		padding-top: 12px
+	}
+	.the-crew {
+		margin-left: 98px;
+		font-size: 21px;
+	}
+	.lord p:before {
+		width: 44px;
+		height: 3px;
+		margin-left: 148px;
+		margin-top: 21px;
+	}
+	.center-book {
+		font-size: 14px;
+		margin-left: 43px;
+		margin-right: 31px;
+	}
+	.read-more-detail {
+		padding-top: 14px;
+		font-size: 12px;
+	}
+	.config-readmor{
+		margin-bottom: 58px;
+		margin-left: 144px;
+	}
+	.img-novel .novellas-center h1 {
+	    font-size: 21px;
+	}
+	.jumbotron .novellas-center h1:after {
+	    margin-left: 158px;
+	    width: 86px;
+	    height: 3px;
+	}
+	.jumbotron .novellas-center h6:before {
+	    margin-left: 180px;
+	}
+	.style-owl .item .rectangle {
+	    font-size: 14px;
+	}
+	.owl-second {
+	    padding-left: 47px;
+	    margin-top: -26px;
+	    padding-right: 20px;
+	}
+	.rectangle {
+	    width: 157px;
+	    height: 80px;
+	}
+	.owl-second .owl-dots {
+	    margin-right: 9px;
+	}
+	.see {
+	    font-size: 21px;
+	}
+	.col-novellas {
+	    font-size: 21px;
+	}
+	.jumbotron .our-world {
+    	font-size: 21px;
+	}
+	.fig-our {
+		font-size: 21px;
+	}
+	.jumbotron .our-world p:after {
+		margin-top: 22px;
+		width: 86px;
+		height: 3px;
+		margin-left: 156px;
+	}
+	.jumbotron .our-world h6:before {
+		margin-left: 178px;
+	}
+	.rem-text {
+		width: 385px;
+		font-size: 14px;
+		padding-left: 15px;
+   		 padding-right: 10px;
+	}
+	.fiter-by-txt {
+		position: absolute;
+   	 	font-size: 9px;
+   	 	font-family: "Opens Sans";
+	}
+	.txt-right {
+	    font-size: 9px;
+	}
+	.fitler-bytype {
+		margin-top: 139px;
+	    margin-bottom: 16px;
+	}
+	.img-baraza .novellas-center h1 {
+		font-size: 21px;
+	}
+	.jumbotron .novellas-center h1:after {
+	    margin-left: 172px;
+	    width: 52px;
+	    height: 3px;
+	}
+	.jumbotron .novellas-center h6:before {
+	    width: 29px;
+	    margin-left: 183px;
+	}
+	.bazzarr-txt{
+		font-size: 14px; 
+	}
+	.bazzarr-txt {
+	    margin-right: 2px;
+	    font-size: 14px;
+	    padding-left: 32px;
+	}
+	.contact .our-world h1:after {
+	    margin-left: 184px;
+	    width: 56px;
+	}
+	.contact .our-world h6:before {
+	    width: 34px;
+	    height: 3px;
+	    text-align: center;
+	    margin-left: 195px;
+	    margin-top: 1px;
+	}
+	.reponsive-contact{
+		font-size: 14px;
+		margin-left: auto;
+	}
+	
+}	
+
